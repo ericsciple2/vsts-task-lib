@@ -2,10 +2,10 @@
 _build
 _download
 _test
-node/*.d.ts
-node/*.js
-node/docs/temp
-node/docs/*.js
+*.d.ts
+*.js
+docs/temp
+docs/*.js
 
 # Logs
 logs
@@ -36,7 +36,7 @@ build/Release
 node_modules
 
 # Docs intermediate files
-node/docs/vsotask.json
+docs/vsotask.json
 
 # tests
-node/.taskKey
+.taskKey
